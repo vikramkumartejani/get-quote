@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="w-full max-w-[1440px] mx-auto px-6 py-10">
         <div className="w-full flex items-center lg:flex-row flex-col justify-between lg:gap-5 gap-10">
             <div className="lg:text-left text-center flex flex-col lg:items-start items-center gap-3 sm:gap-5 lg:max-w-[600px] 2xl:max-w-[700px]">
-                <h1 className="text-4xl sm:text-5xl font-medium mb-2 flex flex-col gap-2">
+                <h1 className="text-2xl sm:text-3xl font-medium mb-2 flex flex-col gap-2">
                     Lorem ipsum dolar
-                    <span className="font-orbitron text-5xl">sit amet</span>
+                    <span className="font-orbitron text-2xl sm:text-3xl">sit amet</span>
                 </h1>
                 <p className="text-base sm:text-xl 2xl:text-2xl font-normal">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum provident ratione numquam amet.
