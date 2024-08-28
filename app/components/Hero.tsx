@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero = () => {
@@ -17,9 +18,9 @@ const Hero = () => {
                 </p>
                 <button className="mt-3 uppercase bg-[#441109] text-white w-[160px] h-[60px] md:h-[55px] text-sm sm:text-base 2xl:text-lg tracking-[0.2em] font-light">Get Quote</button>
             </div>
-            <div className="flex items-end relative mb-10 md:mb-0 ">
-                <img src="./assets/image.jpg" alt="image" className="sm:min-w-[200px] max-h-[200px] sm:max-h-full sm:h-[300px] -mb-[100px] -mr-[50px] sm:-mr-[100px] z-10" />
-                <img src="./assets/image.jpg" alt="image" className="min-w-[215px] sm:min-w-[250px] max-h-[300px] sm:max-h-[400px]" />
+            <div className=" relative mb-10 md:mb-0 w-full max-w-[320px] flex items-end justify-end ">
+                <img src="/assets/image.jpg" alt="image" className="w-[150px] h-[200px] absolute z-20 -bottom-14 -left-[20px]" style={{objectFit:'cover'}}  />
+                <img src="/assets/image.jpg" alt="image" className='w-[250px] h-[400px]' style={{objectFit:'cover'}}  />
             </div>
         </div>
     </div>
